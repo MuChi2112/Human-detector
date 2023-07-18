@@ -17,12 +17,12 @@ Depending on whether it is an image or a video or live feed run the commands as 
 1. Provide the image file you want to analyze.
 2. Execute the program with the following command:
 
-    (a)python3 detectnet.py (input.jpg) (output.jpg)
+    (a) python3 detectnet.py [input.jpg] [output.jpg]
 
-    (b)pyhton3 detectnet.pt (input.mp4) (output.mp4)
-4. The Person Detector will process the image and display the results, including the bounding boxes around the detected individuals.
+    (b) python3 detectnet.py [input.mp4] [output.mp4]
+4. The Person Detector will process the image and display the results with the name as [output] in the same directory. The output images or videos include the bounding boxes around the detected individuals.
 
 # Video Stream Detection
 1. Connect a camera or provide a video file as input.
-2. Execute the program with the following command - 
+2. Execute the program with the following command - ./detectnet.py /dev/video0 [output.mp4]
 3. The Person Detector will process the video stream in real-time and display the results, indicating the location of detected people using bounding boxes.
