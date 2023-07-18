@@ -16,6 +16,7 @@ Depending on whether it is an image or a video or live feed run the commands as 
 # Image and Video Detection
 1. Provide the image file you want to analyze.
 2. Execute the program with the following command:
+
     (a)python3 detectnet.py (input.jpg) (output.jpg)
     (b)pyhton3 detectnet.pt (input.mp4) (output.mp4)
 4. The Person Detector will process the image and display the results, including the bounding boxes around the detected individuals.
